@@ -1,8 +1,8 @@
 <template>
-  <div class="max-w-4xl w-full mx-auto py-10 px-6">
+  <div class="max-w-4xl w-full mx-auto py-12 px-6">
     <!-- Header -->
     <header>
-      <div class="flex flex-col-reverse xl:flex-row items-center pt-10 xl:pt-0 xl:gap-28">
+      <div class="flex flex-col-reverse items-center xl:items-start xl:flex-row pt-10 xl:pt-0 gap-8 xl:gap-28">
         <div>
           <h3 class="text-3xl font-bold">🖐 I'm Lionel Kaniki</h3>
           <p class="my-2 text-xl">Fullstack Developer. I'm passionate about challenges and detail-oriented. With my 5 years of experience, I design tailor-made web platforms that adapt to clients needs.</p>
@@ -11,7 +11,7 @@
             <p class="text-lg -mt-1">Kinshasa, Republique Democratique du Congo</p>
           </div>
         </div>
-        <div class="size-16 shrink-0 md:size-28">
+        <div class="shrink-0">
           <img class="rounded-full drop-shadow-lg" src="" alt="photo">
         </div>
       </div>
@@ -34,6 +34,106 @@
         </NuxtLink>
       </div>
     </header>
+
+    <main class="flex flex-col gap-y-12 mt-12">
+      <!-- Skills -->
+      <div class="flex flex-col gap-y-4">
+        <h3 class="font-bold text-2xl">
+          Main technologies
+        </h3>
+        <div class="flex flex-wrap gap-1.5">
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/php.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">PHP</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-4">
+                <img src="~/assets/img/typescript.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">TypeScript</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-4">
+                <img src="~/assets/img/vuejs.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Vue.js</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/nuxt.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Nuxt</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/tailwindcss.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Tailwind CSS</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/mysql.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">MySql</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/postgres.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">PostgreSQL</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/mongo.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">MongoDB</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/firebase.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Firebase</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/github-octocat.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Github</div>
+            </div>
+          </div>
+          <div class="inline-flex items-center font-medium rounded-md text-md px-3 py-2.5 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
+            <div class="flex items-center gap-1.5">
+              <div class="shrink-0 size-6">
+                <img src="~/assets/img/gitlab.svg" alt="logo">
+              </div>
+              <div class="whitespace-nowrap font-semibold">Gitlab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
   </div>
 
 </template>
