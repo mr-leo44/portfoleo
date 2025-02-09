@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "portfoleo",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,8 +11,15 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.10.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "gsap": "^3.12.5",
+    "lucide-vue-next": "^0.475.0",
     "nuxt": "^3.14.0",
+    "radix-vue": "^1.9.13",
+    "shadcn-nuxt": "^0.11.3",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "latest",
     "vue-router": "latest"
   },
