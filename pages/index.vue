@@ -1,37 +1,33 @@
-import { Icon } from '../.nuxt/components';
 <template>
-  <div class="max-w-4xl w-full mx-auto py-12 px-6">
+  <div class="max-w-4xl w-full mx-auto py-8 xl:py-12 px-6 xl:px-0">
     <!-- Header -->
     <header>
-      <div class="flex flex-col-reverse items-center xl:items-start xl:flex-row pt-10 xl:pt-0 gap-8 xl:gap-28">
+      <div class="flex flex-col gap-8 xl:gap-28">
         <div>
           <h3 class="text-3xl font-bold">🖐 I'm Lionel Kaniki</h3>
-          <p class="my-2 text-xl">Fullstack Developer. I'm passionate about challenges and detail-oriented. With my 5 years of experience, I design tailor-made web platforms that adapt to clients needs.</p>
+          <p class="my-2 text-lg md:text-xl font-medium">Fullstack Developer. I'm passionate about challenges and detail-oriented. With my 4 years of experience, I design tailor-made web platforms that adapt to clients needs.</p>
           <div class="flex gap-1 items-center">
-            <Icon name="ph:map-pin-area" class="shrink-0 w-6 h-6" />
-            <p class="text-lg -mt-1">Kinshasa, Republique Democratique du Congo</p>
+            <Icon name="ph:map-pin-area" class="shrink-0 w-4 h-4" />
+            <p class="text-xs md:text-sm -mt-1">Kinshasa, Democratic Republic of Congo</p>
           </div>
-        </div>
-        <div class="shrink-0">
-          <img class="rounded-full drop-shadow-lg" src="" alt="photo">
         </div>
       </div>
       <!-- Credentials -->
-      <div class="flex items-center my-2 gap-2">
+      <div class="flex items-center my-3 gap-2">
         <button type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-100 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
-          <Icon name="ph:envelope" class="shrink-0 w-8 h-8 text-gray-700" />
+          <Icon name="ph:envelope" class="shrink-0 w-6 h-6 text-gray-700" />
         </button>
         <NuxtLink class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-100 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
-          <Icon name="ph:phone-call" class="shrink-0 w-8 h-8 text-gray-700" />
+          <Icon name="ph:whatsapp-logo" class="shrink-0 w-6 h-6 text-gray-700" />
         </NuxtLink>
         <NuxtLink class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-100 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
-          <Icon name="ph:github-logo" class="shrink-0 w-8 h-8 text-gray-700" />
+          <Icon name="ph:github-logo" class="shrink-0 w-6 h-6 text-gray-700" />
         </NuxtLink>
         <NuxtLink class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-100 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
-          <Icon name="ph:linkedin-logo" class="shrink-0 w-8 h-8 text-gray-700" />
+          <Icon name="ph:linkedin-logo" class="shrink-0 w-6 h-6 text-gray-700" />
         </NuxtLink>
         <NuxtLink class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-100 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
-          <Icon name="ph:x-logo" class="shrink-0 w-8 h-8 text-gray-700" />
+          <Icon name="ph:x-logo" class="shrink-0 w-6 h-6 text-gray-700" />
         </NuxtLink>
       </div>
     </header>
@@ -221,7 +217,7 @@ import { Icon } from '../.nuxt/components';
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I set up and configured the application's database and storage using Firebase and Firestore</div>
+                    <div>I set up and configured the application's database and storage using Firebase and Firestore built in GoodBarber</div>
                   </div>
                   <div class="flex gap-1 items-start">
                     <div>-</div>
@@ -262,6 +258,9 @@ import { Icon } from '../.nuxt/components';
                 <div>
                   <img class="size-5 shrink-0" src="~/assets/img/jquery.svg" alt="ts">
                 </div>
+                <div>
+                  <img class="size-5 shrink-0" src="~/assets/img/gitlab.svg" alt="gitlab">
+                </div>
               </div>
             </div>
           </div>
@@ -281,7 +280,7 @@ import { Icon } from '../.nuxt/components';
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I ddesigned and deployed the showcase website for the non-profit organization</div>
+                    <div>I designed and deployed the showcase website for the non-profit organization</div>
                   </div>
                 </div>
               </div>
@@ -330,18 +329,14 @@ import { Icon } from '../.nuxt/components';
         <!-- Projects -->
         <div class="flex gap-x-4">
           <div>
-            <!-- <img class="size-10 shrink-0" src="" alt="img"> -->
             <Icon name="ph:code-block" class="size-10 shrink-0" />
           </div>
           <div class="flex flex-col w-full">
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-x-3">
               <h3 class="text-lg xl:text-xl font-semibold">Wakati-app</h3>
-              <div class="inline-flex items-center font-medium rounded-md text-md px-1.5 py-1 gap-1 text-gray-700 hover:text-gray-50 bg-white hover:bg-gray-600 dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-600 border dark:border-gray-200">
-                <div class="flex items-center gap-x-1.5">
-                  <div class="shrink-0 size-6">
-                    <Icon name="ph:code-block" class="size-4 shrink-0" />
-                  </div>
-                </div>
+              <div class="flex gap-x-1 items-end py-1 px-1.5 bg-gray-700 text-white hover:bg-gray-900 rounded-xl">
+                <Icon name="ph:clock-countdown" class="size-4 shrink-0" />
+                <span class="text-xs">In progress</span>
               </div>
             </div>
             <div class="text-base tracking-tighter my-2">
