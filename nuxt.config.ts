@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  css: ['~/assets/css/main.css'],
+  tailwindcss: {
+    cssPath: 'assets/css/tailwind.css'
+  },
   app: {
     head: {
       title: "Lionel Kaniki | Portfolio",
@@ -37,5 +39,5 @@ export default defineNuxtConfig({
       collections: ['ph'],
     },
   },
-  modules: ['@nuxt/icon']
+  modules: ['@nuxt/icon', "@nuxtjs/tailwindcss"]
 })
