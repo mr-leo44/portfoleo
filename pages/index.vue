@@ -433,7 +433,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="fixed z-50 py-1.5 bottom-6 max-w-4xl w-full text-right">
+    <footer class="fixed z-50 py-1.5 bottom-6 max-w-4xl w-full text-right px-10 md:px-0">
       <SwitchMode />
     </footer>
   </div>
