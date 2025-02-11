@@ -18,7 +18,7 @@ export default {
   theme: {
     fontFamily: {
       'sans': [
-        'Fira Code'
+        'Montserrat'
       ],
     },
     container: {
