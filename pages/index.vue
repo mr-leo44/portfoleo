@@ -431,6 +431,13 @@
         </div>
       </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="fixed z-50 py-1.5 bottom-6 max-w-4xl w-full text-right">
+      <SwitchMode />
+    </footer>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import SwitchMode from "@/components/SwitchMode.vue"
+</script>
