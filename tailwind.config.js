@@ -11,14 +11,14 @@ export default {
     "./error.vue",
   ],
   plugins: [],
-  darkMode: ["class"],
+  darkMode: 'class',
   safelist: ["dark"],
   prefix: "",
   
   theme: {
     fontFamily: {
       'sans': [
-        'Dosis'
+        'Fira Code'
       ],
     },
     container: {
