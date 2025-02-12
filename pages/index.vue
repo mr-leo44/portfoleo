@@ -1,4 +1,5 @@
 <template>
+  <Toaster />
   <div class="max-w-4xl relative w-full mx-auto py-8 xl:py-12 px-6 xl:px-0">
     <!-- Header -->
     <header>
@@ -12,13 +13,13 @@
           </div>
           <!-- Credentials -->
           <div class="flex items-center gap-2">
-            <button title="Go to copy my email address" type="button" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <Button variant="outline" @click="copyEmail" title="Click here to copy my email" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:envelope" class="shrink-0 w-5 h-5" />
-            </button>
-            <button title="Go to copy my phone number" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50  hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            </Button>
+            <Button variant="outline" @click="copyNumber" title="Click here to copy my phone number" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50  hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:whatsapp-logo" class="shrink-0 w-5 h-5" />
-            </button>
-            <NuxtLink title="GO to my Github" href="https://github.com/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            </Button>
+            <NuxtLink title="Go to my Github" href="https://github.com/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:github-logo" class="shrink-0 w-5 h-5" />
             </NuxtLink>
             <NuxtLink title="Go to my Linkedin profile" href="https://linkedin.com/in/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
@@ -439,5 +440,67 @@
   </div>
 </template>
 <script setup>
-import SwitchMode from "@/components/SwitchMode.vue"
+import SwitchMode from '@/components/SwitchMode.vue'
+import { Button } from '@/components/ui/button'
+import { Toaster } from '@/components/ui/toast'
+import { useToast } from '@/components/ui/toast/use-toast'
+import { h } from 'vue'
+
+const { toast } = useToast()
+const email = 'lionnelkaniki44@gmail.com'
+const number = '+243821102608'
+
+const copyEmail = async () => {
+  try {
+    await navigator.clipboard.writeText(email)
+    toast({
+      title: 'Copied',
+      duration: 5000,
+      description: h('div', [
+        h('span', {
+          class: 'block text-xs mb-3',
+          innerHTML: `Email has been copied successfully`
+        }),
+        h('button', { class: 'bg-gray-900 text-white dark:text-gray-100 dark:text-gray-700 hover:bg-gray-800 dark:hover:bg-gray-200 px-3 py-1.5 rounded'}, [
+          h('a', {
+            class: 'flex gap-1.5 text-xs',
+            href: `mailto:${email}`,
+          }, [
+            h('span', { class: 'iconify i-ph:envelope shrink-0 w-4 h-4' }),
+            h('span', {
+              href: `mailto:${email}`,
+              innerHTML: 'Send me an email'
+            })
+          ]),
+        ]),
+      ]),
+      action: {
+        label : 'x',
+        onClick: () => {}
+      }
+    })
+  } catch (err) {
+    console.error('error :', err)
+  }
+}
+
+const copyNumber = async () => {
+  try {
+    await navigator.clipboard.writeText(number)
+    toast({
+      title: 'Copied',
+      duration: 5000,
+      description: h('span', {
+        class: 'text-xs',
+        innerHTML: `${number} has been copied successfully`
+      }),
+      action: {
+        label : 'x',
+        onClick: () => {}
+      }
+    })
+  } catch (err) {
+    console.error('error :', err)
+  }
+}
 </script>
