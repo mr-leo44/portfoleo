@@ -461,15 +461,15 @@ const copyEmail = async () => {
           class: 'block text-xs mb-3',
           innerHTML: `Email has been copied successfully`
         }),
-        h('button', { class: 'bg-gray-900 text-white dark:text-gray-100 dark:text-gray-700 hover:bg-gray-800 dark:hover:bg-gray-200 px-3 py-1.5 rounded'}, [
+        h('button', { class: 'bg-gray-900 text-white dark:text-gray-100 hover:bg-gray-800 dark:hover:bg-gray-200 px-3 py-1.5 rounded'}, [
           h('a', {
-            class: 'flex gap-1.5 text-xs',
+            class: 'flex gap-x-1.5 text-sm items-center',
             href: `mailto:${email}`,
           }, [
             h('span', { class: 'iconify i-ph:envelope shrink-0 w-4 h-4' }),
             h('span', {
-              href: `mailto:${email}`,
-              innerHTML: 'Send me an email'
+              class: 'text-xs',
+              innerHTML: 'Send email'
             })
           ]),
         ]),
@@ -491,7 +491,7 @@ const copyNumber = async () => {
       title: 'Copied',
       duration: 5000,
       description: h('span', {
-        class: 'text-xs',
+        class: 'text-sm',
         innerHTML: `${number} has been copied successfully`
       }),
       action: {
