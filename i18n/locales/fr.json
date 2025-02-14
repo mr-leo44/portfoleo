@@ -37,5 +37,15 @@
   },
   "technologies": {
     "title": "Technologies principales"
+  },
+  "skills": {
+    "title": "Compétences",
+    "relations": "Relation saine",
+    "communication": "Communication active",
+    "ps": "Résolution des problèmes",
+    "autonomy": "Autonomie & Adaptabilité",
+    "time": "Gestion de temps",
+    "ts_tw": "Esprit d'équipe & Travail d'équipe"
+
   }
 }

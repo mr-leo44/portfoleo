@@ -151,43 +151,43 @@
         <!-- Skills -->
         <div class="flex flex-col gap-y-4 w-[40%]">
           <h3 class="font-bold text-lg">
-            Soft Skills
+            {{ $t("skills.title") }}
           </h3>
           <div class="flex flex-wrap gap-1.5">
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:heart" />
-                <div class="whitespace-nowrap font-semibold">Healthy Relationships</div>
+                <div class="whitespace-nowrap font-semibold">{{ $t('skills.relations') }}</div>
               </div>
             </div>
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:chats-circle" />
-                <div class="whitespace-nowrap font-semibold">Active Communication</div>
+                <div class="whitespace-nowrap font-semibold">{{ $t("skills.communication") }}</div>
               </div>
             </div>
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:gear" />
-                <div class="whitespace-nowrap font-semibold">Problem-solving</div>
+                <div class="whitespace-nowrap font-semibold">{{ $t("skills.ps") }}</div>
               </div>
             </div>
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:user-focus" />
-                <div class="whitespace-nowrap font-semibold">Autonomy & Adaptability</div>
-              </div>
+                <div class="whitespace-nowrap font-semibold">{{ $t('skills.autonomy') }}</div>
+              </div> 
             </div>
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:clock-user" />
-                <div class="whitespace-nowrap font-semibold">Time Management</div>
+                <div class="whitespace-nowrap font-semibold">{{ $t('skills.time') }}</div>
               </div>
             </div>
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
               <div class="flex items-center gap-1.5">
                 <Icon class="shrink-0 size-4" name="ph:users-four" />
-                <div class="whitespace-nowrap font-semibold">Team Spirit & Teamwork</div>
+                <div class="whitespace-nowrap font-semibold">{{ $t('skills.ts_tw') }}</div>
               </div>
             </div>
           </div>

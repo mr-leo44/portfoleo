@@ -37,5 +37,14 @@
   },
   "technologies": {
     "title": "Main Technologies"
+  },
+  "skills": {
+    "title": "Soft Skills",
+    "relations": "Healthy Relationships",
+    "communication": "Active Communication",
+    "ps": "Problem-solving",
+    "autonomy": "Autonomy & Adaptability",
+    "time": "Time Management",
+    "ts_tw": "Team Spirit & Teamwork"
   }
 }
