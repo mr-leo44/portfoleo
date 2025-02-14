@@ -434,13 +434,15 @@
     </main>
 
     <!-- Footer -->
-    <footer class="fixed z-50 py-1.5 bottom-6 max-w-4xl w-full text-right px-10 md:px-0">
+    <footer class="fixed flex justify-end gap-x-2 items-center z-50 py-1.5 bottom-6 max-w-4xl w-full px-10 md:px-0">
+      <LanguageSwitcher />
       <SwitchMode />
     </footer>
   </div>
 </template>
 <script setup>
 import SwitchMode from '@/components/SwitchMode.vue'
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
 import { Button } from '@/components/ui/button'
 import { Toaster } from '@/components/ui/toast'
 import { useToast } from '@/components/ui/toast/use-toast'
