@@ -5,27 +5,27 @@
     <header>
       <div class="flex flex-col gap-8 xl:gap-28">
         <div class="flex flex-col gap-y-1.5">
-          <h3 class="text-2xl font-bold">🖐 I'm Lionel Kaniki</h3>
-          <p class="my-2">Fullstack Developer. I'm passionate about challenges and detail-oriented. With my 4 years of experience, I design tailor-made web platforms that adapt to clients needs.</p>
+          <h3 class="text-2xl font-bold">🖐 {{ $t("header.greetings") }}</h3>
+          <p class="my-2">{{ $t("header.resume") }}</p>
           <div class="flex gap-x-1 items-center">
             <Icon name="ph:map-pin-area" class="shrink-0 w-4 h-4" />
-            <span class="text-xs">Kinshasa, Democratic Republic of Congo</span>
+            <span class="text-xs">{{ $t("header.localization") }}</span>
           </div>
           <!-- Credentials -->
           <div class="flex items-center gap-2">
-            <Button variant="outline" @click="copyEmail" title="Click here to copy my email" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <Button variant="outline" @click="copyEmail" :title="$t('header.credentials.email.title')" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:envelope" class="shrink-0 w-5 h-5" />
             </Button>
-            <Button variant="outline" @click="copyNumber" title="Click here to copy my phone number" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50  hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <Button variant="outline" @click="copyNumber" :title="$t('header.credentials.phone.title')" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50  hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:whatsapp-logo" class="shrink-0 w-5 h-5" />
             </Button>
-            <NuxtLink title="Go to my Github" href="https://github.com/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <NuxtLink :title="$t('header.credentials.github.title')" href="https://github.com/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:github-logo" class="shrink-0 w-5 h-5" />
             </NuxtLink>
-            <NuxtLink title="Go to my Linkedin profile" href="https://linkedin.com/in/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <NuxtLink :title="$t('header.credentials.linkedin.title')" href="https://linkedin.com/in/mr-leo44" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:linkedin-logo" class="shrink-0 w-5 h-5" />
             </NuxtLink>
-            <NuxtLink title="Go to my X profile" href="https://twitter.com/drewlionel" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
+            <NuxtLink :title="$t('header.credentials.x.title')" href="https://twitter.com/drewlionel" target="_blank" rel="noopener noreferrer" class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-700 dark:ring-gray-300 text-gray-700 dark:text-gray-50 hover:text-gray-50 hover:bg-gray-900 disabled:bg-gray-50 aria-disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-100 dark:hover:text-gray-700 dark:disabled:bg-gray-800 dark:aria-disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-gray-500 dark:focus-visible:ring-gray-400 inline-flex items-center">
               <Icon name="ph:x-logo" class="shrink-0 w-5 h-5" />
             </NuxtLink>
           </div>
@@ -38,7 +38,7 @@
       <!-- Techno -->
         <div class="flex flex-col gap-y-4">
           <h3 class="font-bold text-lg">
-            Main Technologies
+            {{ $t("technologies.title") }}
           </h3>
           <div class="flex flex-wrap gap-1.5">
             <div class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 gap-1 text-gray-700 bg-gray-50 hover:bg-gray-900 hover:text-white dark:bg-gray-900 dark:text-gray-50 dark:hover:bg-gray-100 dark:hover:text-gray-700 border dark:border-gray-200">
@@ -434,7 +434,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="fixed flex justify-end gap-x-2 items-center z-50 py-1.5 bottom-6 max-w-4xl w-full px-10 md:px-0">
+    <footer class="fixed flex justify-end gap-x-1 items-center z-50 py-1.5 bottom-6 max-w-4xl w-full px-16 md:px-0">
       <LanguageSwitcher />
       <SwitchMode />
     </footer>
@@ -456,12 +456,12 @@ const copyEmail = async () => {
   try {
     await navigator.clipboard.writeText(email)
     toast({
-      title: 'Copied',
+      title: $t('header.credentials.email.toast.title'),
       duration: 5000,
       description: h('div', [
         h('span', {
           class: 'block text-xs mb-3',
-          innerHTML: `Email has been copied successfully`
+          innerHTML: $t('header.credentials.email.toast.description')
         }),
         h('button', { class: 'bg-gray-900 text-white dark:text-gray-100 hover:bg-gray-800 dark:hover:bg-gray-200 px-3 py-1.5 rounded'}, [
           h('a', {
@@ -471,7 +471,7 @@ const copyEmail = async () => {
             h('span', { class: 'iconify i-ph:envelope shrink-0 w-4 h-4' }),
             h('span', {
               class: 'text-xs',
-              innerHTML: 'Send email'
+              innerHTML: $t('header.credentials.email.toast.button_text')
             })
           ]),
         ]),
@@ -490,11 +490,11 @@ const copyNumber = async () => {
   try {
     await navigator.clipboard.writeText(number)
     toast({
-      title: 'Copied',
+      title: $t('header.credentials.phone.toast.title'),
       duration: 5000,
       description: h('span', {
         class: 'text-sm',
-        innerHTML: `${number} has been copied successfully`
+        innerHTML: $t('header.credentials.phone.toast.description')
       }),
       action: {
         label : 'x',

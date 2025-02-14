@@ -1,5 +1,41 @@
 {
-  "light": "Light",
-  "dark": "Dark",
-  "system": "System"
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "header": {
+    "greetings": "I'm Lionel Kaniki",
+    "resume": "Fullstack Developer. I'm passionate about challenges and detail-oriented. With my 4 years of experience, I design tailor-made web platforms that adapt to clients needs.",
+    "localization": "Kinshasa, Democratic Republic of Congo",
+    "credentials": {
+      "email": {
+        "title": "Click here to copy my email",
+        "toast": {
+          "title": "Copied",
+          "description": "Email copied to clipboard",
+          "button_text": "Send me an email"
+        }
+      },
+      "phone": {
+        "title": "Click here to copy my phone number",
+        "toast": {
+          "title": "Copied",
+          "description": "Phone number copied to clipboard"
+        }
+      },
+      "github": {
+        "title": "Go to my Github"
+      },
+      "linkedin": {
+        "title": "Go to my Linkedin profile"
+      },
+      "x": {
+        "title": "Go to my X profile"
+      }
+    }
+  },
+  "technologies": {
+    "title": "Main Technologies"
+  }
 }

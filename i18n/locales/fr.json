@@ -1,5 +1,41 @@
 {
-  "light": "Clair",
-  "dark": "Sombre",
-  "system": "Système"
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "header": {
+    "greetings": "Je suis Lionel Kaniki",
+    "resume": "Développeur Fullstack. Je suis passionné par les défis et soucieux du détail. Fort de mes 4 années d'expérience, je conçois des plateformes web sur mesure qui s'adaptent aux besoins des clients.",
+    "localization": "Kinshasa, République Démocratique du Congo",
+    "credentials": {
+      "email": {
+        "title": "Cliquez ici pour copier mon email",
+        "toast": {
+          "title": "Copié",
+          "description": "Email copié dans le presse-papiers",
+          "button_text": "Send me an email"
+        }
+      },
+      "phone": {
+        "title": "Cliquez ici pour copier mon numero de téléphone",
+        "toast": {
+          "title": "Copié",
+          "description": "Numero de téléphone copié dans le presse-papiers"
+        }
+      },
+      "github": {
+        "title": "Aller à mon Github"
+      },
+      "linkedin": {
+        "title": "Aller à mon profil Linkedin"
+      },
+      "x": {
+        "title": "Aller à mon profil X"
+      }
+    }
+  },
+  "technologies": {
+    "title": "Technologies principales"
+  }
 }
