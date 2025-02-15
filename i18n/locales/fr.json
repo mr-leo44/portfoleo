@@ -46,6 +46,38 @@
     "autonomy": "Autonomie & Adaptabilité",
     "time": "Gestion de temps",
     "ts_tw": "Esprit d'équipe & Travail d'équipe"
-
+  },
+  "experiences": {
+    "title": "Expérience professionnelle",
+    "odc": {
+      "position": "Développeur web",
+      "dates": "Avril 2024 - Septembre 2024",
+      "description": "J'ai participé au développement d'une application web pour la demande des requisitions des fournitures de bureau avec une validation multi-niveaux",
+      "sub": "Dans cette application,",
+      "tasks": {
+        "task_1": "J'ai conçu le système d'envoi d'emails",
+        "task_2": "J'ai contribué à l'amelioration du processus validation par multi flow",
+        "task_3": "J'ai amélioré le temps de téléchargement des rapports générés en PDF",
+        "task_4": "J'ai contribué à l'amélioration de la charte de l'application"
+      }
+    },
+    "talatala": {
+      "position": "Développeur Backend freelance",
+      "dates": "Janvier 2023 - Avril 2023",
+      "tasks": {
+        "task_1": "J'ai configuré et mis en place la base de données et le stockage de l'application",
+        "task_2": "J'ai lancé l'application sur le web et sur Google Play Store"
+      }
+    },
+    "alinga": {
+      "position": "Développeur Frontend developer",
+      "dates": "Avril 2020 - Août 2020",
+      "task": "J'ai integraté des pages web de l'application covid-19 pass app"
+    },
+    "gc": {
+      "position": "Frontend developer",
+      "dates": "Février 2020 - Avril 2020",
+      "task": "I conçu et deployé le site vitrine pour l'organisation à but non lucratif"
+    }
   }
 }

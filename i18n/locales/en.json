@@ -46,5 +46,38 @@
     "autonomy": "Autonomy & Adaptability",
     "time": "Time Management",
     "ts_tw": "Team Spirit & Teamwork"
+  },
+  "experiences": {
+    "title": "Work Experience",
+    "odc": {
+      "position": "Web developer",
+      "dates": "April 2024 - September 2024",
+      "description": "I participated in development of a web application for requestion office supplies with a multi-level validation.",
+      "sub": "Within this app,",
+      "tasks": {
+        "task_1": "I designed the email sending system",
+        "task_2": "I contributed to the improvment of the multi-level validation process",
+        "task_3": "I contributed to the enhancement of the download time for generated PDF reports",
+        "task_4": "I contributed to the improvment of the application charter"
+      }
+    },
+    "talatala": {
+      "position": "Freelancer Backend developer",
+      "dates": "January 2023 - April 2023",
+      "tasks": {
+        "task_1": "I set up and configured the application's database and storage",
+        "task_2": "I launched the application on the web and on the Google Play Store"
+      }
+    },
+    "alinga": {
+      "position": "Frontend developer",
+      "dates": "April 2020 - August 2020",
+      "task": "I integrated pages of the covid-19 pass app"
+    },
+    "gc": {
+      "position": "Frontend developer",
+      "dates": "February 2020 - April 2020",
+      "task": "I designed and deployed the showcase website for the non-profit organization"
+    }
   }
 }

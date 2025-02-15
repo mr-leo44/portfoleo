@@ -197,7 +197,7 @@
       <!-- Experience -->
       <div class="flex flex-col gap-y-4">
         <h3 class="font-bold text-xl mb-3">
-          Work Experience
+          {{ $t('experiences.title') }}
         </h3>
 
         <!-- Projects -->
@@ -213,28 +213,28 @@
                     Orange Digital Center - Ecole de code
                   </NuxtLink>
                 </h3>
-                <p class="font-semibold">Web developer</p>
-                <p class="opacity-75 text-sm">April 2024 - September 2024</p>
+                <p class="font-semibold">{{ $t('experiences.odc.position') }}</p>
+                <p class="opacity-75 text-sm">{{ $t('experiences.odc.dates') }}</p>
               </div>
               <div class="text-sm tracking-tighter my-2">
-                <p>I participated in development of a web application for requestion office supplies with a multi-level validation.</p>
-                <p>Within this app,</p>
+                <p>{{ $t('experiences.odc.description') }}.</p>
+                <p>{{ $t('experiences.odc.sub') }}</p>
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I designed the email sending system</div>
+                    <div>{{ $t('experiences.odc.tasks.task_1') }}</div>
                   </div>
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I improved the multi-level validation process</div>
+                    <div>{{ $t('experiences.odc.tasks.task_2') }}</div>
                   </div>
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I enhanced the download time for generated PDF reports</div>
+                    <div>{{ $t('experiences.odc.tasks.task_3') }}</div>
                   </div>
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I improved the application charter</div>
+                    <div>{{ $t('experiences.odc.tasks.task_4') }}</div>
                   </div>
                 </div>
               </div>
@@ -265,18 +265,18 @@
                     Talatala Afrique
                   </NuxtLink>
                 </h3>
-                <p class="font-semibold">Freelancer Backend developer</p>
-                <p class="opacity-75 text-sm">January 2023 - Avril 2023</p>
+                <p class="font-semibold">{{ $t('experiences.talatala.position')}}</p>
+                <p class="opacity-75 text-sm">{{ $t('experiences.talatala.dates') }}</p>
               </div>
               <div class="text-sm tracking-tighter my-2">
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I set up and configured the application's database and storage using Firebase and Firestore built in GoodBarber</div>
+                    <div>{{ $t('experiences.talatala.tasks.task_1')}}</div>
                   </div>
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I launched the application on the web and on the Google Play Store</div>
+                    <div>{{ $t('experiences.talatala.tasks.task_2')}}</div>
                   </div>
                 </div>
               </div>
@@ -294,14 +294,14 @@
             <div class="flex flex-col w-full">
               <div class="flex flex-col">
                 <h3 class="text-lg xl:text-xl font-bold">Alinga ASBL</h3>
-                <p class="font-semibold">Frontend developer</p>
-                <p class="opacity-75 text-sm">April 2020 - Août 2020</p>
+                <p class="font-semibold">{{ $t('experiences.alinga.position')}}</p>
+                <p class="opacity-75 text-sm">{{ $t('experiences.alinga.dates')}}</p>
               </div>
               <div class="text-sm tracking-tighter my-2">
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                    <div>I integrated pages of the covid-19 pass app</div>
+                    <div>{{ $t('experiences.alinga.task')}}</div>
                   </div>
                 </div>
               </div>
@@ -329,14 +329,14 @@
                     Genies Club ASBL
                   </NuxtLink>
                 </h3>
-                <p class="font-semibold">Frontend developer</p>
-                <p class="opacity-75 text-sm">Février 2020 - Avril 2020</p>
+                <p class="font-semibold">{{ $t('experiences.gc.position')}}</p>
+                <p class="opacity-75 text-sm">{{ $t('experiences.gc.dates')}}</p>
               </div>
               <div class="text-sm tracking-tighter my-2">
                 <div class="flex flex-col gap-y-1 pl-1.5">
                   <div class="flex gap-1 items-start">
                     <div>-</div>
-                <div>I designed and deployed the showcase website for the non-profit organization</div>
+                <div>{{ $t('experiences.gc.task')}}</div>
                 </div>
                 </div>
               </div>
