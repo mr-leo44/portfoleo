@@ -84,5 +84,12 @@
     "title": "Education",
     "dates": "Octobre 2016 - Octobre 2019",
     "grade": "Graduat (BAC+3) en Administration Réseaux informatique et gestion des Bases de données"
+  },
+  "latest": {
+    "title": "Derniers projets",
+    "wakati": {
+      "status": "En cours",
+      "description": "Une application de gestion des emploi du temps pour des étudiants, les universités et les enseignants. Elle comprend plusieurs fonctionnalités telles que des notifications par email et par SMS, gestion de la disponibilité des enseignants, la gestion des événements facultaires, universitaires et promotionnels, ainsi que des portails pour les administrateurs, les professeurs et étudiants"
+    }
   }
 }

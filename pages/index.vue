@@ -383,7 +383,7 @@
       <!-- Latest projects -->
       <div class="flex flex-col gap-y-4">
         <h3 class="font-bold text-xl mb-3">
-          Latest Projects
+          {{ $t('latest.title') }}
         </h3>
 
         <!-- Projects -->
@@ -400,12 +400,12 @@
               </h3>
               <div class="flex gap-x-1 items-end py-1 px-1.5 bg-gray-700 text-white hover:bg-gray-900 rounded-xl">
                 <Icon name="ph:clock-countdown" class="size-4 shrink-0" />
-                <span class="text-xs">In progress</span>
+                <span class="text-xs">{{$t('latest.wakati.status')}}</span>
               </div>
             </div>
             <div class="text-sm tracking-tighter my-2">
               <p>
-                A schedule management application for students, universities and teachers. It includes several features such as email and SMS notifications, management of teacher availability, management of faculty, university and promotion events, and portals for admins, professors and students.
+                {{ $t('latest.wakati.description') }}
               </p>
             </div>
             <div class="flex gap-2 justify-end">

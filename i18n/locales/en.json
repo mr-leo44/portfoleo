@@ -84,5 +84,12 @@
     "title": "Education",
     "dates": "October 2016 - October 2019",
     "grade": "Bachelor Degree in Network Administration and Database Management"
+  },
+  "latest": {
+    "title": "Latest Projects",
+    "wakati": {
+      "status": "In progress",
+      "description": "A schedule management application for students, universities and teachers. It includes several features such as email and SMS notifications, management of teacher availability, management of faculty, university and promotion events, and portals for admins, professors and students."
+    }
   }
 }
