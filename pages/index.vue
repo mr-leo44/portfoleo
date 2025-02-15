@@ -356,7 +356,7 @@
       <!-- Education -->
       <div class="flex flex-col gap-y-4">
         <h3 class="font-bold text-xl">
-          Education
+          {{ $t('education.title') }}
         </h3>
 
         <!-- Bachelor Degree -->
@@ -371,10 +371,10 @@
                   Esmicom
                 </NuxtLink>
               </h3>
-              <p class="opacity-75 text-sm">October 2016 - October 2019</p>
+              <p class="opacity-75 text-sm">{{$t('education.dates') }}</p>
             </div>
             <div class="text-sm tracking-tighter my-2">
-              Bachelor Degree in Network Administration and Database Management
+              {{$t('education.grade') }}
             </div>
           </div>
         </div>

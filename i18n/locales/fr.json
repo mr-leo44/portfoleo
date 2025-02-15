@@ -79,5 +79,10 @@
       "dates": "Février 2020 - Avril 2020",
       "task": "I conçu et deployé le site vitrine pour l'organisation à but non lucratif"
     }
+  },
+  "education": {
+    "title": "Education",
+    "dates": "Octobre 2016 - Octobre 2019",
+    "grade": "Graduat (BAC+3) en Administration Réseaux informatique et gestion des Bases de données"
   }
 }

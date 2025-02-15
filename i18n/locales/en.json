@@ -79,5 +79,10 @@
       "dates": "February 2020 - April 2020",
       "task": "I designed and deployed the showcase website for the non-profit organization"
     }
+  },
+  "education": {
+    "title": "Education",
+    "dates": "October 2016 - October 2019",
+    "grade": "Bachelor Degree in Network Administration and Database Management"
   }
 }
